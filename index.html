@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LEpiMol - Laboratório de Epidemiologia Molecular</title>
+	<meta name="description" content="LEpiMol - Laboratório de Epidemiologia Molecular. Pesquisas em saúde, epidemiologia, mercúrio e Amazônia. Ciência, extensão e inovação.">
+	<meta name="keywords" content="Epidemiologia, Amazônia, Saúde Pública, Mercúrio, Pesquisa, LEpiMol, UFOPA, Extensão, Divulgação Científica, Análises Clínicas">
+	<meta name="author" content="LEpiMol - Laboratório de Epidemiologia Molecular">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<header>
+		<div class="container header-flex">
+			<a href="#" class="logo">
+				<img src="./assets/header/lepimol logo.jpg" alt="Logo do LEpiMol - Laboratório de Epidemiologia Molecular" height="60">
+			</a>
+			<div class="lab-title">
+				<h1>LEpiMol</h1>
+			</div>
+			<nav role="navigation" aria-label="Navegação principal">
+				<ul class="nav-list">
+					<li><a href="#inicio">Início</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#pesquisas">Pesquisas</a></li>
+					<li><a href="#equipe">Equipe</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main-content" role="main">
+		<!-- Hero Section -->
+		<section id="inicio" class="hero">
+			<div class="container hero-content">
+				   <div class="hero-text">
+					   <h2 class="fadeInUp">Laboratório de Epidemiologia Molecular</h2>
+					   <p>Pesquisas inovadoras para promover saúde, conhecimento e transformação social na região amazônica.</p>
+					   <div class="hero-ctas fadeInRight">
+						   <a href="#pesquisas" class="btn btn-primary" aria-label="Ver Pesquisas do LEpiMol">Ver Pesquisas</a>
+						   <a href="#contato" class="btn btn-secondary" aria-label="Fale Conosco">Fale Conosco</a>
+					   </div>
+				   </div>
+				   <div class="hero-image">
+					   <img src="hero-amazonia.jpg" alt="Pesquisadora do LEpiMol coletando amostra de cabelo em comunidade ribeirinha da Amazônia">
+				   </div>
+				   <a href="#areas-atuacao" class="scroll-indicator" aria-label="Role para ver mais">
+					   <i class="fas fa-angle-down"></i>
+				   </a>
+			</div>
+		</section>
+
+		<!-- Áreas de Atuação -->
+		<section id="areas-atuacao" class="areas-atuacao">
+			<div class="container">
+				<h2>Áreas de Atuação</h2>
+				   <div class="cards-atuacao">
+					   <article class="card fade-in-on-scroll">
+						   <i class="fas fa-microscope icon-float" aria-label="Ícone de Pesquisa de Campo"></i>
+						   <h3>Pesquisa de Campo</h3>
+						   <p>Coleta e análise de dados em comunidades amazônicas para entender e combater doenças.</p>
+					   </article>
+					   <article class="card fade-in-on-scroll">
+						   <i class="fas fa-vials" aria-label="Ícone de Análises Clínicas"></i>
+						   <h3>Análises Clínicas</h3>
+						   <p>Diagnóstico laboratorial e monitoramento de saúde com tecnologia de ponta.</p>
+					   </article>
+					   <article class="card fade-in-on-scroll">
+						   <i class="fas fa-hands-helping" aria-label="Ícone de Extensão Comunitária"></i>
+						   <h3>Extensão Comunitária</h3>
+						   <p>Projetos de educação, prevenção e promoção da saúde junto às comunidades.</p>
+					   </article>
+					   <article class="card fade-in-on-scroll">
+						   <i class="fas fa-bullhorn" aria-label="Ícone de Divulgação Científica"></i>
+						   <h3>Divulgação Científica</h3>
+						   <p>Popularização do conhecimento científico e comunicação de resultados para a sociedade.</p>
+					   </article>
+				   </div>
+			</div>
+		</section>
+
+		<!-- Publicações/Notícias -->
+		<section id="pesquisas" class="publicacoes">
+			<div class="container">
+				<h2>Publicações & Notícias</h2>
+				<div class="filtros" role="tablist" aria-label="Filtros de categoria de publicações">
+					<button class="filtro ativo" data-categoria="todas" aria-label="Filtrar por todas as categorias">Todas</button>
+					<button class="filtro" data-categoria="saude" aria-label="Filtrar por Saúde Pública">Saúde Pública</button>
+					<button class="filtro" data-categoria="pesquisa" aria-label="Filtrar por Pesquisa">Pesquisa</button>
+					<button class="filtro" data-categoria="extensao" aria-label="Filtrar por Ações de Extensão">Ações de Extensão</button>
+				</div>
+				   <div class="grade-posts">
+					<article class="post fade-in-on-scroll" data-categoria="extensao">
+					   <div class="skeleton"></div>
+					   <img src="pesquisas/imagem-mutirao-saude-principal.jpg" alt="Equipe multidisciplinar do LEpiMol em atendimento" style="display:none;">
+					   <div class="post-content" style="display:none;">
+						   <h3>LEpiMol Realiza Grande Ação de Saúde em Comunidades da Amazônia</h3>
+						   <p>Mutirão de saúde com exames e atendimentos essenciais para comunidades amazônicas.</p>
+						   <a href="pesquisas/acao-saude-comunidades.html" class="leia-mais" aria-label="Leia mais sobre a ação de saúde nas comunidades">Leia mais</a>
+					   </div>
+					</article>
+					<article class="post fade-in-on-scroll" data-categoria="pesquisa">
+					   <div class="skeleton"></div>
+					   <img src="pesquisas/imagem-questionarios-principal.jpg" alt="Pesquisadores do LEpiMol aplicando questionários" style="display:none;">
+					   <div class="post-content" style="display:none;">
+						   <h3>Nossa Pesquisa em Campo: A Importância dos Questionários</h3>
+						   <p>Como a coleta de dados e o QFA contribuem para a pesquisa em saúde na Amazônia.</p>
+						   <a href="pesquisas/nossa-pesquisa-questionarios.html" class="leia-mais" aria-label="Leia mais sobre a pesquisa de questionários">Leia mais</a>
+					   </div>
+					</article>
+					<article class="post fade-in-on-scroll" data-categoria="saude">
+					   <div class="skeleton"></div>
+					   <img src="pesquisas/infografico-ciclo-mercurio.jpg" alt="Infográfico sobre o Ciclo do Mercúrio" style="display:none;">
+					   <div class="post-content" style="display:none;">
+						   <h3>O Ciclo do Mercúrio e Seus Riscos à Saúde: Um Guia Completo</h3>
+						   <p>Entenda as formas do mercúrio, fontes de emissão e riscos à saúde humana.</p>
+						   <a href="pesquisas/artigo-mercurio.html" class="leia-mais" aria-label="Leia mais sobre o ciclo do mercúrio">Leia mais</a>
+					   </div>
+					</article>
+					   <!-- Adicione mais posts conforme necessário -->
+				   </div>
+			</div>
+		</section>
+
+		<!-- Sobre o Laboratório -->
+		<section id="sobre" class="sobre-lab">
+			<div class="container sobre-flex">
+				<div class="sobre-texto">
+					<h2>Sobre o LEpiMol</h2>
+					<p>O LEpiMol é um laboratório dedicado à pesquisa, ensino e extensão em epidemiologia molecular, com foco na saúde das populações amazônicas e no impacto do mercúrio. Nossa missão é promover ciência de excelência, formação de recursos humanos e transformação social.</p>
+					   <div class="estatisticas">
+						   <div class="estatistica fade-in-on-scroll">
+							   <span class="contador" data-alvo="500">0</span>
+							   <p>+ amostras coletadas</p>
+						   </div>
+						   <div class="estatistica fade-in-on-scroll">
+							   <span class="contador" data-alvo="10">0</span>
+							   <p>+ comunidades atendidas</p>
+						   </div>
+						   <div class="estatistica fade-in-on-scroll">
+							   <span class="contador" data-alvo="20">0</span>
+							   <p>+ pesquisadores</p>
+						   </div>
+					   </div>
+				</div>
+				   <aside class="sobre-img">
+					   <i class="fas fa-dna icon-pulse" style="font-size:3.5rem;color:#00695c;margin-bottom:1rem;" aria-label="Ícone DNA animado"></i>
+					   <img src="sobre-lab.jpg" alt="Equipe do LEpiMol em atividade de campo na Amazônia, sorrindo para a foto">
+				   </aside>
+			</div>
+		</section>
+
+		<!-- Equipe e Responsáveis -->
+		<section id="equipe" class="equipe-lepimol">
+			<div class="container content-area">
+				<h2>Equipe e Responsáveis</h2>
+				<p class="page-description">Conheça os profissionais e estudantes que fazem parte das ações de pesquisa e extensão do LEpiMol.</p>
+
+				<div class="cards-atuacao team-cards">
+					<!-- Triagem -->
+					<article class="card fade-in-on-scroll">
+						<img src="https://via.placeholder.com/150" alt="Foto de Ana Emília Macedo" style="border-radius: 50%; width: 90px; height: 90px; margin-bottom: 1rem;">
+						<h3>Ana Emília Macedo</h3>
+						<p>Enfermeira | Doutoranda PPG-BIONORTE</p>
+						<span class="team-area">Triagem</span>
+					</article>
+					<!-- Análises Clínicas -->
+					<article class="card fade-in-on-scroll">
+						<img src="https://via.placeholder.com/150" alt="Foto de Amanda Luyta Monteiro" style="border-radius: 50%; width: 90px; height: 90px; margin-bottom: 1rem;">
+						<h3>Amanda Luyta Monteiro</h3>
+						<p>Farmacêutica | Mestranda PPGENF/UEPA</p>
+						<span class="team-area">Análises Clínicas</span>
+					</article>
+					<article class="card fade-in-on-scroll">
+						<img src="https://via.placeholder.com/150" alt="Foto de Johnnasson de Medeiros" style="border-radius: 50%; width: 90px; height: 90px; margin-bottom: 1rem;">
+						<h3>Johnnasson de Medeiros</h3>
+						<p>Mestre PPGCSA/UFOPA</p>
+						<span class="team-area">Análises Clínicas</span>
+					</article>
+					<!-- Atendimento Neurológico -->
+					<article class="card fade-in-on-scroll">
+						<h3>Francisco Lourenço Grandal S. B</h3>
+						<p>Fisioterapeuta | Mestrando PPGCSA/UFOPA</p>
+						<span class="team-area">Atendimento Neurológico</span>
+					</article>
+					<article class="card fade-in-on-scroll">
+						<h3>Luana Albuquerque</h3>
+						<p>Fisioterapeuta | Mestranda PPGCSA/UFOPA</p>
+						<span class="team-area">Atendimento Neurológico</span>
+					</article>
+					<article class="card fade-in-on-scroll">
+						<h3>Frnaelka dos Anjos F. M</h3>
+						<p>Fisioterapeuta | Doutoranda PPG-BIONORTE</p>
+						<span class="team-area">Atendimento Neurológico</span>
+					</article>
+				</div>
+				<div class="team-support">
+					<h4>Equipe de Apoio</h4>
+					<p>Alunos dos cursos de Medicina, Enfermagem, Farmácia, Biomedicina, Biotecnologia e Fisioterapia.</p>
+					<h4>Laboratório de Apoio</h4>
+					<p>Qualis Diagnósticos.</p>
+				</div>
+
+				<div class="team-section">
+					<h3>Atendimento Oftalmológico</h3>
+					<div class="team-grid">
+						<div class="team-member-card">
+							<h4>Dr. Wilcky Santos</h4>
+							<p>Oftalmologista | Mestrando PPGCSA/UFOPA</p>
+						</div>
+						<div class="team-member-card">
+							<h4>Solana Amaral</h4>
+							<p>Enfermeira</p>
+						</div>
+					</div>
+					<h4>Equipe de Apoio</h4>
+					<p>Alunos do curso de Medicina.</p>
+				</div>
+
+				<div class="team-section">
+					<h3>Atendimento Odontológico</h3>
+					<div class="team-grid">
+						<div class="team-member-card">
+							<h4>Iolane Pereira Brito</h4>
+							<p>Odontóloga | Doutoranda PPG-BIONORTE</p>
+						</div>
+					</div>
+					<h4>Equipe de Apoio</h4>
+					<p>Alunos do curso de Odontologia e Residentes da Ufopa.</p>
+				</div>
+
+				<div class="team-section">
+					<h3>Aplicação de Questionários</h3>
+					<div class="team-grid">
+						<div class="team-member-card">
+							<h4>Sabrina do Carmo V. P.</h4>
+							<p>Nutricionista | Mestranda PPGCSA/UFOPA</p>
+							<small>(Responsável pelo Questionário de Frequência Alimentar)</small>
+						</div>
+					</div>
+					<h4>Equipe de Apoio</h4>
+					<p>Alunos LEpiMol e Alunos do curso de Nutrição.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Parceiros e Financiadores -->
+		<section class="parceiros">
+			<div class="container">
+				<h2>Parceiros & Financiadores</h2>
+				<div class="carrossel-logos" aria-label="Carrossel de logos de parceiros e financiadores">
+					<div class="logo-item"><img src="logo-cnpq.png" alt="Logo do CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico"></div>
+					<div class="logo-item"><img src="logo-ms.png" alt="Logo do Ministério da Saúde do Brasil"></div>
+					<div class="logo-item"><img src="logo-tnc.png" alt="Logo da The Nature Conservancy"></div>
+					<div class="logo-item"><img src="logo-ufopa.png" alt="Logo da UFOPA - Universidade Federal do Oeste do Pará"></div>
+					<!-- Adicione mais logos conforme necessário -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Contato -->
+		<section id="contato" class="contato">
+			<div class="container contato-flex">
+				<form class="form-contato" aria-label="Formulário de contato do LEpiMol">
+					<h2>Fale Conosco</h2>
+					<div class="form-group">
+						<label for="nome">Nome completo</label>
+						<input type="text" id="nome" name="nome" required aria-required="true">
+					</div>
+					<div class="form-group">
+						<label for="email">E-mail</label>
+						<input type="email" id="email" name="email" required aria-required="true">
+					</div>
+					<div class="form-group">
+						<label for="mensagem">Mensagem</label>
+						<textarea id="mensagem" name="mensagem" rows="4" required aria-required="true"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary" aria-label="Enviar mensagem de contato">Enviar</button>
+				</form>
+				<aside class="contato-info">
+					<h3>Contato</h3>
+					<ul>
+						<li><i class="fas fa-envelope" aria-label="E-mail"></i> lepimol@ufopa.edu.br</li>
+						<li><i class="fab fa-whatsapp" aria-label="WhatsApp"></i> (93) 99175-7580</li>
+						<li><i class="fas fa-map-marker-alt" aria-label="Endereço"></i>R. Raimundo Fona - Salé, Santarém - PA, 68040-260, Brasil</li>
+					</ul>
+					<div class="mapa">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d498.2816690619121!2d-54.74017526920854!3d-2.422262588172092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9288f9001511c053%3A0xd1cc8421ab9ebb!2sLEpiMol%20-%20Laborat%C3%B3rio%20de%20Epidemiologia%20Molecular%20(UFOPA)!5e0!3m2!1spt-BR!2sus!4v1758492086269!5m2!1spt-BR!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>					</div>
+				</aside>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container footer-flex">
+			<div class="footer-nav">
+				<h2 class="visually-hidden">Navegação do rodapé</h2>
+				<h3>Navegação</h3>
+				<ul>
+					<li><a href="#inicio">Início</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#pesquisas">Pesquisas</a></li>
+					<li><a href="#equipe">Equipe</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</div>
+			<div class="footer-contato">
+				<h3>Contato</h3>
+				<ul>
+					<li><i class="fas fa-envelope" aria-label="E-mail"></i> lepimol@ufopa.edu.br</li>
+					<li><i class="fab fa-whatsapp" aria-label="WhatsApp"></i> (93) 99175-7580</li>
+				</ul>
+			</div>
+			<div class="footer-social">
+				<h3>Redes Sociais</h3>
+				<a href="https://www.instagram.com/lepimol.ufopa" aria-label="Instagram do LEpiMol"><i class="fab fa-instagram"></i></a>
+
+			</div>
+			<div class="footer-creditos">
+				<p>&copy; 2025 LEpiMol - Laboratório de Epidemiologia Molecular. Desenvolvido por LEpiMol.</p>
+			</div>
+		</div>
+	</footer>
+
+	
+		 <script src="script.js">
+
+	</script>
+</body>
+</html>
