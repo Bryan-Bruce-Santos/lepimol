@@ -4,63 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Ciclo do Mercúrio e Seus Riscos à Saúde - LEpiMol</title>
-    <link rel="stylesheet" href="styles-pesquisas.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <main class="container content-area">
+    <header>
+		<div class="container header-flex">
+			<a href="../index.html" class="logo">
+                   <img src="../assets/header/lepimol logo.jpg.jpg" alt="Logo do LEpiMol">
+			</a>
+			<div class="lab-title">
+				<h1>LEpiMol</h1>
+			</div>
+			<nav role="navigation" aria-label="Navegação principal">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+				<ul class="nav-list">
+					<li><a href="../index.html#inicio">Início</a></li>
+					<li><a href="../index.html#sobre">Sobre</a></li>
+					<li><a href="../index.html#pesquisas">Pesquisas</a></li>
+					<li><a href="../index.html#equipe">Equipe</a></li>
+					<li><a href="../index.html#contato">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+    <main class="container content-area article-page">
         <nav class="artigo-nav">
-            <a href="nossa-pesquisa-questionarios.html" class="btn btn-secondary artigo-link-anterior"><i class="fas fa-arrow-left"></i> Anterior: Questionários</a>
-            <a href="../index.html" class="btn btn-secondary voltar-index"><i class="fas fa-home"></i> Página principal</a>
+            <a href="nossa-pesquisa-questionarios.html" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Anterior</a>
+            <a href="../index.html" class="btn btn-secondary"><i class="fas fa-home"></i> Início</a>
         </nav>
         <article class="article-full">
             <header class="article-header">
                 <h1>O Ciclo do Mercúrio e Seus Riscos à Saúde: Um Guia Completo</h1>
-                <div class="article-meta">
+                 <div class="article-meta">
                     <span><i class="fas fa-tag"></i> Saúde Ambiental</span>
-                    <span><i class="fas fa-calendar-alt"></i> 04 de Setembro de 2025</span>
+                    <span><i class="fas fa-calendar-alt"></i> 22 de Setembro de 2025</span>
                 </div>
             </header>
 
             <div class="article-content">
                 <h2>O que é o Mercúrio?</h2>
                 <p>O mercúrio (Hg) é uma substância química que se encontra naturalmente no meio ambiente. É o único metal que, em condições normais de temperatura e pressão, se apresenta em estado líquido e possui uma coloração prateada.</p>
-
+                
                 <h2>As Formas Químicas do Mercúrio</h2>
                 <h3>1. Mercúrio Elementar (Hg⁰)</h3>
-                <p>Apresenta-se como um líquido que facilmente se transforma em vapor, liberando um gás perigoso. O vapor de mercúrio tem a capacidade de permanecer no ar por meses ou até anos. Pode ser usado na fabricação de termômetros, baterias e lâmpadas fluorescentes.</p>
+                <p>Apresenta-se como um líquido que facilmente se transforma em vapor, liberando um gás perigoso. O vapor de mercúrio tem a capacidade de permanecer no ar por meses ou até anos. Pode ser usado no fabrico de termómetros, baterias e lâmpadas fluorescentes.</p>
                 
-                <h3>2. Mercúrio Inorgânico (Hg⁺⁺)</h3>
-                <p>É formado pela força atrativa química do mercúrio Hg e outros elementos, como enxofre, cloro e oxigênio.</p>
-
-                <h3>3. Mercúrio Orgânico (Metilmercúrio - MeHg)</h3>
-                <p>É formado quando o mercúrio se liga a cadeias de carbono, sendo o metilmercúrio o mais comum. É considerado a forma mais prejudicial do mercúrio, acumulando-se através da ingestão de alimentos, principalmente de peixes.</p>
-
-                <img src="infografico-ciclo-mercurio.jpg" alt="Infográfico sobre o Ciclo do Mercúrio" class="article-main-image">
-
-                <h2>Principais Fontes de Emissão</h2>
-                <p>As fontes de mercúrio podem ser naturais ou antropogênicas (relacionadas à ação humana).</p>
-                <ul>
-                    <li><strong>Fontes Antropogênicas:</strong> Desmatamento, mineração e fundição, queima de combustível e uso de pesticidas.</li>
-                    <li><strong>Fontes Naturais:</strong> Ocorre de maneira natural, quando o mercúrio é emitido na atmosfera ou liberado no solo ou nas águas por intemperismo de rochas, queimadas e erupções vulcânicas.</li>
-                </ul>
+                <img src="infografico-ciclo-mercurio.jpg.png" alt="[Infográfico sobre o Ciclo do Mercúrio]" class="article-main-image">
 
                 <h2>Riscos e Impactos na Saúde</h2>
                 <p>A exposição ao mercúrio, principalmente através do consumo frequente de pescado contaminado, pode causar sérios danos à saúde, afetando múltiplos sistemas do corpo humano.</p>
 
-                <img src="infografico-riscos-saude.jpg" alt="Infográfico sobre Riscos do Mercúrio à Saúde" class="article-main-image">
+                <img src="infografico-riscos-saude.jpg.png" alt="[Infográfico sobre Riscos do Mercúrio à Saúde]" class="article-main-image">
                 
                 <h3>Sistema Nervoso</h3>
                 <p>Causa neurotoxicidade, déficits cognitivos e motores, e transtornos do desenvolvimento infantil.</p>
                 
                 <h3>Fetos e Recém-Nascidos</h3>
-                <p>A exposição durante a gestação acarreta prejuízos no neurodesenvolvimento (atraso motor, de linguagem, QI reduzido), transtornos do comportamento, risco de malformações congênitas e maior suscetibilidade a doenças crônicas.</p>
+                <p>A exposição durante a gestação acarreta prejuízos no neurodesenvolvimento (atraso motor, de linguagem, QI reduzido), transtornos do comportamento, risco de malformações congênitas e maior suscetibilidade a doenças crónicas.</p>
                 
                 <h3>Outros Sistemas Afetados:</h3>
                 <ul>
                     <li><strong>Cardiovascular:</strong> Hipertensão e aumento de risco cardiovascular.</li>
-                    <li><strong>Renal:</strong> Nefrotoxicidade, eliminação de proteínas pela urina (proteinúria) e potencial evolução para insuficiência renal crônica.</li>
+                    <li><strong>Renal:</strong> Nefrotoxicidade, eliminação de proteínas pela urina (proteinúria) e potencial evolução para insuficiência renal crónica.</li>
                     <li><strong>Hepático:</strong> Aumento das enzimas hepáticas e ativação de processos inflamatórios no fígado.</li>
                     <li><strong>Reprodutivo:</strong> Redução da fertilidade e risco de aborto espontâneo.</li>
                 </ul>
@@ -68,5 +77,35 @@
         </article>
     </main>
 
-    </body>
+    <footer>
+		<div class="container footer-flex">
+			<div class="footer-nav">
+				<h3>Navegação</h3>
+				<ul>
+					<li><a href="../index.html#inicio">Início</a></li>
+					<li><a href="../index.html#sobre">Sobre</a></li>
+					<li><a href="../index.html#pesquisas">Pesquisas</a></li>
+					<li><a href="../index.html#equipe">Equipe</a></li>
+					<li><a href="../index.html#contato">Contato</a></li>
+				</ul>
+			</div>
+			<div class="footer-contato">
+				<h3>Contato</h3>
+				<ul>
+					<li><i class="fas fa-envelope" aria-label="E-mail"></i> lepimol@ufopa.edu.br</li>
+					<li><i class="fab fa-whatsapp" aria-label="WhatsApp"></i> (93) 99175-7580</li>
+				</ul>
+			</div>
+			<div class="footer-social">
+				<h3>Redes Sociais</h3>
+				<a href="https://www.instagram.com/lepimol.ufopa" target="_blank" aria-label="Instagram do LEpiMol"><i class="fab fa-instagram"></i></a>
+			</div>
+			<div class="footer-creditos">
+				<p>© 2025 LEpiMol - Laboratório de Epidemiologia Molecular. Desenvolvido por LEpiMol.</p>
+			</div>
+		</div>
+	</footer>
+    <script src="../script.js"></script>
+</body>
 </html>
+
